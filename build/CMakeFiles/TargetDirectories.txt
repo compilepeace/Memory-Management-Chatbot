@@ -1,3 +1,0 @@
-/home/compilepeace/delete/Memory-Management-Chatbot/build/CMakeFiles/membot.dir
-/home/compilepeace/delete/Memory-Management-Chatbot/build/CMakeFiles/edit_cache.dir
-/home/compilepeace/delete/Memory-Management-Chatbot/build/CMakeFiles/rebuild_cache.dir
