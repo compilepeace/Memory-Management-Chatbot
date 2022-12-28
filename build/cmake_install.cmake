@@ -1,4 +1,4 @@
-# Install script for directory: /home/compilepeace/CppND-Memory-Management-Chatbot
+# Install script for directory: /home/compilepeace/delete/Memory-Management-Chatbot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/compilepeace/CppND-Memory-Management-Chatbot/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/compilepeace/delete/Memory-Management-Chatbot/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

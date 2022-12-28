@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/compilepeace/CppND-Memory-Management-Chatbot
+CMAKE_SOURCE_DIR = /home/compilepeace/delete/Memory-Management-Chatbot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/compilepeace/CppND-Memory-Management-Chatbot/build
+CMAKE_BINARY_DIR = /home/compilepeace/delete/Memory-Management-Chatbot/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/membot.dir/clean
 CMakeFiles/membot.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/membot.dir/build.make CMakeFiles/membot.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/membot.dir/build.make CMakeFiles/membot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/compilepeace/CppND-Memory-Management-Chatbot/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target membot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/compilepeace/delete/Memory-Management-Chatbot/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target membot"
 .PHONY : CMakeFiles/membot.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/membot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/compilepeace/CppND-Memory-Management-Chatbot/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/compilepeace/delete/Memory-Management-Chatbot/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/membot.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/compilepeace/CppND-Memory-Management-Chatbot/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/compilepeace/delete/Memory-Management-Chatbot/build/CMakeFiles 0
 .PHONY : CMakeFiles/membot.dir/rule
 
 # Convenience name for target.
