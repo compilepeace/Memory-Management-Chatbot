@@ -4,11 +4,15 @@ This is the project for the third course in the [Udacity C++ Nanodegree Program]
 
 <img src="images/chatbot_demo.gif"/>
 
-The ChatBot code creates a dialogue where users can ask questions about some aspects of memory management in C++. After the knowledge base of the chatbot has been loaded from a text file, a knowledge graph representation is created in computer memory, where chatbot answers represent the graph nodes and user queries represent the graph edges. After a user query has been sent to the chatbot, the Levenshtein distance is used to identify the most probable answer. The code is fully functional as-is and uses raw pointers to represent the knowledge graph and interconnections between objects throughout the project.
+The ChatBot code creates a dialogue where users can ask questions about some aspects of memory management in C++. After the knowledge base of the chatbot has been loaded from a text file, a knowledge graph representation is created in computer memory, where chatbot answers represent the graph nodes and user queries represent the graph edges. After a user query has been sent to the chatbot, the Levenshtein distance (the minimum number of single-character edits - insertions, deletions or substitutions, required to change one word into the other) is used to identify the most probable answer. The code is fully functional as-is and uses raw pointers to represent the knowledge graph and interconnections between objects throughout the project.
 
 In this project you will analyze and modify the program. Although the program can be executed and works as intended, no advanced concepts as discussed in this course have been used; there are currently no smart pointers, no move semantics and not much thought has been given to ownership or memory allocation.
 
-Your goal is to use the course knowledge to optimize the ChatBot program from a memory management perspective. There are a total of five specific tasks to be completed, which are detailed below.
+The Chatbot application is optimize from a memory management perspective by - 
+* adhering to the **Rule of 5** for resource management class (defining destructor, copy constructor, copy assignment operator, move constructor and move assigment operator). 
+* using **smart pointers** (using shared and exclusive ownership model wherever appropriate)
+* using **move semantics** (moving objects and transferring ownerships)
+
 
 ## Dependencies for Running Locally
 * cmake >= 3.11
@@ -32,6 +36,10 @@ Your goal is to use the course knowledge to optimize the ChatBot program from a 
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./membot`.
+
+## Software Design
+<img src="./images/membot_hld1.png">
+<img src="./images/membot_hld2.png">
 
 ## Project Task Details
 
